@@ -1,0 +1,87 @@
+Sh@PeWatch Presents: Zyrythm
+a highly automated and intuitive digital audio workstation, 
+-A-
+Compiled So Morgellons Can become DJ's and Producers!!
+(before its "cool")
+<^>
+git clone https://github.com/zrythm/zrythm
+sudo apt install build-essential
+git clone https://github.com/jerry40/guile-simple-zmq
+git clone https://github.com/sass/sassc
+apt-get install python3 python3-dev
+$ pip install pip
+$ pip install --upgrade python-gitlab.
+git clone https://github.com/falkTX/Carla/
+git clone https://github.com/DrBluefall/blueprint-mode
+git clone https://github.com/FFTW/fftw3
+git clone git://github.com/ninja-build/ninja.git && cd ninja
+git checkout release
+cat README.md
+flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo
+flatpak install gnome-nightly org.gtk.Demo4
+flatpak install gnome-nightly org.gtk.WidgetFactory4
+flatpak install gnome-nightly org.gtk.IconBrowser4
+meson setup --prefix /opt/gtk builddir
+cd builddir
+meson compile
+meson install
+CPPFLAGS="-I/opt/gtk/include"
+LDFLAGS="-L/opt/gtk/lib"
+PKG_CONFIG_PATH="/opt/gtk/lib/pkgconfig"
+export CPPFLAGS LDFLAGS PKG_CONFIG_PATH
+LD_LIBRARY_PATH="/opt/gtk/lib"
+PATH="/opt/gtk/bin:$PATH"
+export LD_LIBRARY_PATH PATH
+git clone https://github.com/GNOME/glib
+cd /tmp
+curl -LO https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh
+sudo bash /tmp/script.deb.sh
+sudo apt-get install gitlab-ce
+git clone https://github.com/GNOME/gdk-pixbuf
+git clone https://github.com/GNOME/pango
+git clone https://github.com/GNOME/gobject-introspection
+$ export LD_PRELOAD=/usr/local/lib/preloadable_libiconv.so
+git clone git://git.savannah.gnu.org/libiconv.git
+git clone https://github.com/centricular/fontconfig
+sudo apt-get install libcairo2-dev
+git clone https://github.com/anholt/libepoxy
+git clone https://github.com/ebassi/graphene
+git clone https://github.com/natpen/awesome-wayland
+git clone https://github.com/gcwnow/shared-mime-info
+git clone https://github.com/GNOME/gtksourceview
+git clone https://github.com/phpwebshell/c99shell
+$ meson setup _build
+$ meson compile -C_build
+$ meson test -C_build
+$ sudo meson install -C_build
+git clone https://github.com/GNOME/libadwaita
+meson setup _build
+meson compile -C_build
+meson test -C_build
+sudo meson install -C_build
+_build/run _build/demo/adwaita-1-demo
+git clone https://github.com/ianlancetaylor/libbacktrace
+sudo apt install curl
+git clone https://github.com/tlsa/libcyaml/
+git clone https://github.com/GNOME/libpanel
+git clone https://github.com/libsndfile/libsndfile/releases/
+git clone https://github.com/lv2/lilv
+git clone https://github.com/PCRE2Project/pcre2/releases
+git clone https://github.com/DaanDeMeyer/reproc
+git clone https://github.com/breakfastquay/rubberband
+git clone https://github.com/chirlu/soxr
+git clone https://github.com/vamp-plugins/vamp-plugin-sdk
+git clone https://github.com/Cyan4973/xxHash
+git clone https://github.com/ibireme/yyjson
+git clone https://github.com/drobilla/zix
+apt install cryptsetup
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda0
+sudo cryptsetup open /dev/sda0 <Zrythem0>
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda1
+sudo cryptsetup open /dev/sda1 <Zrythem1>
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda2
+sudo cryptsetup open /dev/sdxy <Zrythem2>
+<^>
+_A_
+*(***)**YOUR WELCOME,
+Brenton
